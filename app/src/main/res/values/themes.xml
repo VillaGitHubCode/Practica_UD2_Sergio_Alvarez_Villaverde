@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Practica_UD2" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/morado</item>
+        <item name="colorSecondary">@color/blanco</item>
+        <item name="colorSurface">@color/moradoClaro</item>
+        <item name="colorPrimaryVariant">@color/moradoOscuro</item>
+
+    </style>
+
+    <style name="Theme.Practica_UD2" parent="Base.Theme.Practica_UD2" />
+</resources>

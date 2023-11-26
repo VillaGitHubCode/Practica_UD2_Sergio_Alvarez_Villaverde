@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/generalNewsFragment">
+
+    <fragment
+        android:id="@+id/generalNewsFragment"
+        android:name="com.utad.practica_ud2.GeneralNewsFragment"
+        android:label="fragment_general_news"
+        tools:layout="@layout/fragment_general_news" >
+        <action
+            android:id="@+id/action_generalNewsFragment_to_detailNewActivity"
+            app:destination="@id/detailNewActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/sportNewsFragment"
+        android:name="com.utad.practica_ud2.SportNewsFragment"
+        android:label="fragment_sport_news"
+        tools:layout="@layout/fragment_sport_news" >
+        <action
+            android:id="@+id/action_sportNewsFragment_to_detailNewActivity"
+            app:destination="@id/detailNewActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/techNewsFragment"
+        android:name="com.utad.practica_ud2.TechNewsFragment"
+        android:label="fragment_tech_news"
+        tools:layout="@layout/fragment_tech_news" >
+        <action
+            android:id="@+id/action_techNewsFragment_to_detailNewActivity"
+            app:destination="@id/detailNewActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/detailNewActivity"
+        android:name="com.utad.practica_ud2.DetailNewActivity"
+        android:label="activity_detail_new"
+        tools:layout="@layout/activity_detail_new" >
+        <argument
+            android:name="selectedNew"
+            app:argType="com.utad.practica_ud2.New" />
+    </activity>
+</navigation>

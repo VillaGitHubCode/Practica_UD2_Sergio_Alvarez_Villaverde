@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fl_warningFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WarningFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_warningFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF9F9"
+        android:backgroundTint="@color/moradoClaro">
+
+        <ImageView
+            android:id="@+id/iv_warning"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:contentDescription="@string/image_view_warning"
+            android:src="@drawable/warningimage"
+            app:layout_constraintBottom_toTopOf="@+id/tv_warningContent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.394" />
+
+        <TextView
+            android:id="@+id/tv_warningContent"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_warning_content"
+            android:textAlignment="center"
+            android:textColor="@color/moradoOscuro"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.53" />
+
+        <TextView
+            android:id="@+id/tv_preguntaEdad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_pregunta_edad"
+            android:textColor="#783F9E"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_warningContent"
+            app:layout_constraintVertical_bias="0.138" />
+
+        <Switch
+            android:id="@+id/switch_edad"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/switch_text_warning"
+            android:textColor="@color/moradoOscuro"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_preguntaEdad"
+            app:layout_constraintVertical_bias="0.193" />
+
+        <Button
+            android:id="@+id/btn_continuarActivityHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/button_avanzar_activityhome"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switch_edad" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

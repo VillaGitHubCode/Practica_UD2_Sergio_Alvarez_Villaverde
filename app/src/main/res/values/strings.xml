@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Practica_UD2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">\"Fragment\"</string>
+    <string name="image_view_welcome_description">\"Imagen de bienvenida\"</string>
+    <string name="text_bienvenida_description">¡Bienvenido a Yournal!</string>
+    <string name="edit_text_nombre_hint">Introduce tu nombre</string>
+    <string name="text_view_categorias">¿Qué categoría de noticias te interesa?</string>
+    <string name="checkbox_generales">Generales</string>
+    <string name="checkbox_deportes">Deportes</string>
+    <string name="checkbox_tecnologia">Tecnología</string>
+    <string name="button_continuar_warning_fragment">Continuar</string>
+    <string name="image_view_warning">\"Imagen Warning\"</string>
+    <string name="text_view_warning_content">Querid@ usuario, te informamos que puede haber noticias con contenido sensible, por lo que es necesario que confirmes que eres mayor de edad.</string>
+    <string name="text_view_pregunta_edad">¿Tienes más de 18 años?</string>
+    <string name="switch_text_warning">Sí, tengo 18 años o más</string>
+    <string name="button_avanzar_activityhome">Avanzar</string>
+    <string name="titulo_item_lista">Título de la noticia</string>
+    <string name="imagen_item_list">Imagen del cardview</string>
+    <string name="titulo_general_news">Noticias Generales</string>
+    <string name="titulo_sport_news">Noticias Deportivas</string>
+    <string name="titulo_tech_news">Noticias Tecnológicas</string>
+    <string name="image_detail_new">Imagen de la noticia al detalle</string>
+    <string name="title_detail_new">Título de la noticia al detalle</string>
+    <string name="author_detail_new">Nombre del autor o autora de la noticia</string>
+    <string name="text_description_detail_new">Este va a ser el cuerpo de la noticia</string>
+    <string name="button_add_news">Añade noticias de deportes y de tecnología a generales</string>
+    <string name="text_floating_button">Mostrar más</string>
+</resources>
